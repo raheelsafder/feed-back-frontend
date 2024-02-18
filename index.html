@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/8437070.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed Back</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+        // Function to update title tag
+        function updateTitle() {
+            document.title = document.title || 'My Vue App'; // Set default title if not available
+        }
+
+        // Call the updateTitle function initially
+        updateTitle();
+
+        // Update the title whenever it changes (e.g., after Vue Router navigation)
+        window.addEventListener('hashchange', updateTitle);
+        window.addEventListener('popstate', updateTitle);
+    </script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
