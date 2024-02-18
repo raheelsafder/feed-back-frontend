@@ -1,6 +1,12 @@
 # feedback-frontend
+### clone the branch
+
+```sh
+git clone -b feedback-frontend https://github.com/raheelsafder/feed-back-frontend.git
+```
 
 ### after clone the project run convert .env.example to .env
+
 
 ```sh
 cp .env.example .env
