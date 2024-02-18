@@ -1,10 +1,31 @@
-After clone the project 
+# feedback-frontend
 
-run npm i 
+### after clone the project run convert .env.example to .env
 
-Branch name 
-
-conver .env.example to .env
+```sh
 cp .env.example .env
+```
 
-set VITE_APP_URL to your backend BaseUrl 
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
+```
